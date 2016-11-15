@@ -2,6 +2,7 @@
 #
 # Testes de Scripts Shell
 #
+
 clear
 echo -e "Hello $USER!"
 echo -e "Today is \c ";date
