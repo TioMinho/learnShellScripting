@@ -1,0 +1,21 @@
+### QUEEN OF HEARTS ###
+RESULTADOS DOS TESTES - Dom Nov 27 10:56:30 BRT 2016
+
+--
+TESTE 1: PARAMETROS
+	path = Aluno5/teste
+	problemName = teste
+	problemLetter = C
+	maxTime = 2 s
+
+--
+TESTE 2: COMPILAÇÃO
+COMPILAÇÃO: OK
+
+--
+TESTE 3: EXECUÇÃO
+EXECUÇÃO: OK
+TEMPO LIMITE: OK
+RESPOSTA: OK
+
+PASSOU NO TESTE :)
