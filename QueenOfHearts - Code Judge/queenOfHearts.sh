@@ -13,14 +13,14 @@
 #	Se ( $# == 3)																				#
 #		$1 = Nome do Problema (Deve estar no mesmo diretório do Script)							#
 #		$2 = Letra do Problema 																	#
-#		$3 = Tempo Máximo de Execução 															#
+#		$3 = Tempo Máximo de Execução (em segundos)												#
 #		O código deve estar no mesmo diretório do script. 										#
 #																								#
 #	Se ( $# == 4)																				#
 #		$1 = Diretório do Aluno 																#
 #		$2 = Nome do Problema 																	#
 #		#3 = Letra do Problema 																	#
-#		$4 = Tempo Máximo de Execução 															#
+#		$4 = Tempo Máximo de Execução (em segundos)												#
 #																								#
 #################################################################################################
 
@@ -30,13 +30,13 @@ echo -e "### QUEEN OF HEARTS ###\nRESULTADOS DOS TESTES - $(date)" > testOutputs
 #################################
 echo -e "\n--\nTESTE 1: PARAMETROS" >> testOutputs.txt
 
-if [[ $# -le 2 ]]; then
+if [[ $# == 2 ]]; then
 	path="$1"
 	problemName="$1"
 	problemLetter="$2"
 	maxTime="$3"
 else
-	if [[ $# -ge 3 ]]; then
+	if [[ $# == 3 ]]; then
 		path="$1/$2"
 		problemName="$2"
 		problemLetter="$3"
